@@ -1,7 +1,7 @@
 import React from "react";
 import telegram from "../media/telegram.svg";
 import twitter from "../media/twitter.svg";
-import navLogo from "../media/navLogo.svg";
+import navLogo from "../media/navLogo.jpeg";
 import "../../src/App.css";
 
 const Footer = () => {

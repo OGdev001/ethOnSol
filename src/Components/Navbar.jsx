@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import navLogo from "../media/navLogo.svg";
+import navLogo from "../media/navLogo.jpeg";
 import dropDown from "../media/arrow-down.svg";
 import telegram from "../media/telegram.svg";
 import twitter from "../media/twitter.svg";

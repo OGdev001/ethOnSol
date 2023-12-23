@@ -2,15 +2,15 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../../src/App.css";
-import carouselOne from "../media/carousel_one.svg";
-import carouselTwo from "../media/carousel_two.svg";
-import carouselThree from "../media/carousel_three.svg";
-import carouselFour from "../media/carousel_four.svg";
-import carouselFive from "../media/carousel_five.svg";
+import carouselOne from "../media/carousel_one.jpeg";
+import carouselTwo from "../media/carousel_two.jpeg";
+import carouselThree from "../media/carousel_three.jpeg";
+import carouselFour from "../media/carousel_four.jpeg";
+import carouselFive from "../media/carousel_five.jpeg";
 
 const CarouselComponent = () => {
   const imageStyle = {
-    maxWidth: "100%",
+    maxWidth: "85%",
     maxHeight: "300px",
   };
 
