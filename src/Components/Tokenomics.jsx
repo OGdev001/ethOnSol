@@ -29,7 +29,7 @@ const Tokenomics = () => {
       <div className="max-w-7xl mx-auto flex flex-col justify-center items-center py-20">
         <span className="text-[#14F195] text-2xl md:text-5xl font-semibold text-center">
           <p>#EthOnSolana is a beacon in the crypto sea.</p>
-          <p className="text-center pt-4">FOREVER ENCRYPTED ON SOLANA.</p>
+          <p className="text-center pt-4 md:pt-12">FOREVER ENCRYPTED ON SOLANA.</p>
         </span>
 
         <div className="tokenomics-box grid place-items-center mt-12 md:flex gap-4 md:items-center p-4 rounded-md">

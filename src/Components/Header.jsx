@@ -3,6 +3,7 @@ import Button from "./Button";
 import cart from "../media/shopping-cart.svg";
 import chart from "../media/chart.svg";
 import heroImage from "../media/heroImage.svg";
+import navLogo from "../media/navLogo.jpeg";
 
 const Header = () => {
   return (
@@ -52,7 +53,7 @@ const Header = () => {
         </div>
 
         <img
-          src={heroImage}
+          src={navLogo}
           alt="diagram of farmer"
           width="280px"
           className="md:pt-10"

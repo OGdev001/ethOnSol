@@ -41,7 +41,7 @@ const Navbar = () => {
             {isDropdown && (
               <div className="dropdown_content flex flex-col pl-2">
                 <a
-                  href="https://solscan.io/tx/5SAy8xT4vNLLMb4fkRxRjYMcsntsaNWK1FFA9ynGyjyAYtdhEoeFKhWCHRKTVchFMcbUAfESmVqkYNdzpUUf1pJN"
+                  // href="https://solscan.io/tx/5SAy8xT4vNLLMb4fkRxRjYMcsntsaNWK1FFA9ynGyjyAYtdhEoeFKhWCHRKTVchFMcbUAfESmVqkYNdzpUUf1pJN"
                   className="dropdown_item"
                   target="_blank"
                   rel="noreferrer"
@@ -49,12 +49,12 @@ const Navbar = () => {
                   LP Burn
                 </a>
                 <a
-                  href="https://solscan.io/tx/225DRdrKMHSKVDVhKX7jbh2fK2hL7NyvuJdRiq5mYTBZ1ria1xkaL5fBnqZQhv6BNYg3uTPuABAwEAPPeeoPDpWR"
+                  // href="https://solscan.io/tx/225DRdrKMHSKVDVhKX7jbh2fK2hL7NyvuJdRiq5mYTBZ1ria1xkaL5fBnqZQhv6BNYg3uTPuABAwEAPPeeoPDpWR"
                   className="dropdown_item"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Renounce
+                  Rug Checker
                 </a>
               </div>
             )}
@@ -120,7 +120,7 @@ const Navbar = () => {
               {isDropdown && (
                 <div className="flex flex-col">
                   <a
-                    href="https://solscan.io/tx/5SAy8xT4vNLLMb4fkRxRjYMcsntsaNWK1FFA9ynGyjyAYtdhEoeFKhWCHRKTVchFMcbUAfESmVqkYNdzpUUf1pJN"
+                    // href="https://solscan.io/tx/5SAy8xT4vNLLMb4fkRxRjYMcsntsaNWK1FFA9ynGyjyAYtdhEoeFKhWCHRKTVchFMcbUAfESmVqkYNdzpUUf1pJN"
                     className="dropdown_item"
                     target="_blank"
                     rel="noreferrer"
@@ -128,12 +128,12 @@ const Navbar = () => {
                     LP Burn
                   </a>
                   <a
-                    href="https://solscan.io/tx/225DRdrKMHSKVDVhKX7jbh2fK2hL7NyvuJdRiq5mYTBZ1ria1xkaL5fBnqZQhv6BNYg3uTPuABAwEAPPeeoPDpWR"
+                    // href="https://solscan.io/tx/225DRdrKMHSKVDVhKX7jbh2fK2hL7NyvuJdRiq5mYTBZ1ria1xkaL5fBnqZQhv6BNYg3uTPuABAwEAPPeeoPDpWR"
                     className="dropdown_item"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Renounce
+                    Rug checker   
                   </a>
                 </div>
               )}
