@@ -1,0 +1,165 @@
+.navColor{
+  background: linear-gradient(to right, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+}
+
+nav{
+  border-bottom: .1rem solid rgb(107, 106, 106);
+}
+
+.navBox{
+  padding: .5rem 1rem;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)) 30;
+  border-image-slice: 1;
+}
+
+.nav_dropdown {
+  position: relative;
+  transition: .2s all ease-in-out;
+}
+
+
+
+.dropdown_content {
+  position: absolute;
+  width: 102%;
+  left: -1;
+  top: 2.5rem;
+  background-color: whitesmoke;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)) 30;
+  border-image-slice: 1;
+  /* border: 2px solid #000; */
+  border-top: none;
+}
+
+.dropdown_item {
+  /* border-top: 1px solid #535353; */
+  padding: .5rem 0;
+}
+
+.header1 {
+  top: -.2rem;
+  left: -.2rem;
+  right: 0;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(20, 241, 149);
+}
+
+.header-main {
+  left: 0;
+  right: 0;
+}
+
+.header3 {
+  top: .2rem;
+  left: .2rem;
+  right: 0;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(153, 69, 255);
+}
+
+button{
+  padding: .5rem 1rem;
+  background: linear-gradient(to right, rgb(24, 144, 94),  rgba(153, 69, 255, 1)); ;
+}
+
+.buy_box {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)) 30;
+  border-image-slice: 1;
+}
+
+.tokenomics{
+background: linear-gradient(to right, rgba(0,0,0),rgba(0,0,0), rgb(15, 57, 40),rgb(0,0,0),rgb(0,0,0))
+}
+
+.tokenomics-box{
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.tokenomics-mini_box{
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* mobile menu */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+    
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(3px);
+  top: 0;
+  left: 0;
+ 
+}
+
+
+@media (max-width: 500px) {
+  button {
+    font-size: .85rem;
+  }
+
+  .navColor {
+    display: none;
+  }
+
+  .honestText {
+    display: inline-block;
+  }
+
+  .howToBuy {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .nav_items {
+    position: fixed;
+    flex-direction: column;
+    inset: 0;
+    height: 50%;
+    gap: 2rem;
+    padding-top: 5rem;
+    background-color: whitesmoke;
+    transform: translateX(100%);
+  }
+/* 
+  .nav_item{
+  border: 2px solid black
+  } */
+
+  .hamburger {
+      display: block;
+      z-index: 100;
+    }
+
+    .images{
+      width: 150px;
+    }
+}
+
+.footer{
+    border-top: 1rem solid black;
+    
+}
+
+
