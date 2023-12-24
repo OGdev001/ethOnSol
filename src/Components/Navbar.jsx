@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import navLogo from "../media/navLogo.jpeg";
+import navLogo from "../media/navLogo.jpg";
 import dropDown from "../media/arrow-down.svg";
 import telegram from "../media/telegram.svg";
 import twitter from "../media/twitter.svg";
@@ -19,11 +19,11 @@ const Navbar = () => {
   return (
     <nav className="bg-[whitesmoke] sticky top-0 z-50 p-4 navbar w-full">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="flex items-center gap-3 logo">
+        <div className="flex items-center gap-2 logo">
           <img src={navLogo} alt="logo" width="60px" />
-          <p className="font-bold">ETHEREUM ON</p>
-          <p className="text-[#14F195] navColor font-bold">
-          SOLANA
+          <p className="font-bold md:text-[1.2rem] nav_eth_on">ETHEREUM ON</p>
+          <p className="md:text-[1.2rem] navColor nav_solana font-bold">
+            SOLANA
           </p>
         </div>
         <div className={`flex items-center gap-4 nav_items cursor-pointer`}>
@@ -82,7 +82,7 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <img src={cart} alt="a drop-down menu" width="20px" />
-            <p>Buy $ETHEREUM</p>
+            <p>Buy</p>
           </a>
         </Button>
         {/* nav mobile menu */}
@@ -133,18 +133,14 @@ const Navbar = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Rug checker   
+                    Rug checker
                   </a>
                 </div>
               )}
             </span>
 
             <div className="flex justify-center gap-8 pt-7">
-              <a
-                href="https://t.me/ETHonSOL"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://t.me/ETHonSOL" target="_blank" rel="noreferrer">
                 <img src={telegram} alt="telegram logo" width="50px" />
               </a>
 

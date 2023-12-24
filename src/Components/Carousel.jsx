@@ -14,12 +14,12 @@ const CarouselComponent = () => {
     maxHeight: "300px",
   };
 
-  const centerSlidePercentage = window.innerWidth <= 600 ? 50 : 33.33;
+  const centerSlidePercentage = window.innerWidth <= 600 ? 100 : 33.33;
 
   return (
     <section className="w-full tokenomics">
       <div className="max-w-7xl mx-auto py-20">
-        <p className="text-[#14F195] text-5xl font-bold text-center pt-2 pb-10">
+        <p className="text-[#14F195] text-3xl md:text-5xl font-bold text-center pt-2 pb-10">
           HOLY SHIT, WE PUT $ETHEREUM ON SOLANA
         </p>
         <Carousel

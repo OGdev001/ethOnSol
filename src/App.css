@@ -1,3 +1,7 @@
+.header_section {
+  height: 85svh;
+}
+
 .navColor{
   background: linear-gradient(to right, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)); 
   -webkit-background-clip: text; 
@@ -41,30 +45,60 @@ nav{
   padding: .5rem 0;
 }
 
-.header1 {
+/* .header1 {
   top: -.2rem;
   left: -.2rem;
   right: 0;
   color: transparent;
   -webkit-text-stroke: 1px rgb(20, 241, 149);
-}
+} */
+
+/* header */
 
 .header-main {
-  left: 0;
-  right: 0;
+  color: transparent;
+  -webkit-text-stroke: 4px #000;
 }
 
-.header3 {
+.ethereum {
+  background: linear-gradient(to right, rgba(20, 241, 149, 1),  rgba(153, 69, 255, 1)); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  -webkit-text-stroke: 1px whitesmoke;
+  font-weight: 800;
+  animation: bounce 1s infinite alternate;
+  display:inline-block;
+}
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+
+    to {
+      transform: translateY(-10px);
+    }
+}
+
+/* .header3 {
   top: .2rem;
   left: .2rem;
   right: 0;
   color: transparent;
   -webkit-text-stroke: 1px rgb(153, 69, 255);
-}
+} */
 
 button{
   padding: .5rem 1rem;
-  background: linear-gradient(to right, rgb(24, 144, 94),  rgba(153, 69, 255, 1)); ;
+  background-color: #37a9a9;
+  transition: all .2s ease-in-out;
+  text-transform: uppercase;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #2e9393;
 }
 
 .buy_box {
@@ -122,14 +156,29 @@ background: linear-gradient(to right, rgba(0,0,0),rgba(0,0,0), rgb(15, 57, 40),r
     display: none;
   }
 
+  .nav_solana {
+    display: block;
+    font-size: .65rem;
+  }
+
+  .nav_eth_on {
+    font-size: .65rem;
+  }
+
   .honestText {
     display: inline-block;
   }
 
+  .header-main {
+    line-height: 1.4;
+  }
+
+  .ethereum {
+    font-size: 4rem;
+  }
+
   .howToBuy {
     display: block;
-    font-size: 2rem;
-    text-align: center;
   }
 
   .nav_items {
